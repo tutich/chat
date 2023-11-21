@@ -17,7 +17,7 @@ function App() {
             </div>
             <div className="content">
               <div className="name">
-                <h2>Samuel Green</h2>
+                <h4>Samuel Green</h4>
               </div>
               <div className="status">
                 <h6>Available to walk</h6>
@@ -28,16 +28,16 @@ function App() {
         </div>
 
         <div className="message">
-          <p className='text-reply'>That sounds great. i'd be happy with that.</p>
-          <p className='text-reply'>Could you send over some pictures of your dog, please?</p>
+          <p className='text reply userr'>That sounds great. i'd be happy with that.</p>
+          <p className='text reply'>Could you send over some pictures of your dog, please?</p>
           <div className="pics">
             <img src={dog1mg}/>
             <img src={dog2mg}/>
             <img src={dog3mg}/>
           </div>
-          <p className='text-user'>Here are some pictures,she's a happy girl.</p>
-          <p className='test-user1'>Can you make it?</p>
-          <p className='text-reply'>She looks so happy!The time we discussed works.How long shall I take her out for?</p>
+          <p className='text user'>Here are some pictures,she's a happy girl.</p>
+          <p className='text user user1'>Can you make it?</p>
+          <p className='text reply'>She looks so happy!The time we discussed works.How long shall I take her out for?</p>
           <div className='offer'>
             <div></div>
             <p>30 minute walk</p>
@@ -45,21 +45,26 @@ function App() {
           </div>
           <div className='offer'>
             <div></div>
-            <p>1 hour walk</p>
+            <p className='hour'>1 hour walk</p>
             <span>$49</span>
           </div>
           <form action='#'>
             <input type='text' placeholder='Type a message...' />
-            <div>></div>
+            <div className='arrow'>></div>
           </form>
         </div>
       </div>
-      <h2>Simple booking</h2>
-      <p>Stay in touch with our dog walker's through the chat
-         interfacee. This makes it easy  to discuss arrangements and
-         make bookings. Once the walk has been completed you can
-         rate your worker and book again all through the chat.
+      <div className="description">
+        <h2 className='description-head'>Simple booking</h2>
+        <p className='description-text'>
+          Stay in touch with our dog walker's through the chat
+           interfacee. This makes it easy  to discuss arrangements and
+           make bookings. Once the walk has been completed you can
+           rate your worker and book again all through the chat.
         </p>
+      </div>
+      <div class="purpleBody"></div>
+      <div class="greybody"></div>
     </div>
   );
 }
