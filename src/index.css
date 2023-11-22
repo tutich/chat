@@ -313,7 +313,7 @@ input:focus{
   }
   .header::before {
     top: 52px;
-    left: 50px;
+    left: 90px;
   }
   .phone{
     align-items: center;
