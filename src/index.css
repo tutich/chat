@@ -39,7 +39,7 @@ body {
   content: '';
   position: absolute;
   top: 52px;
-  left: 240px;
+  left: 224px;
   width: 200px;
   height: 27px;
   background-color: #fff;
@@ -289,7 +289,7 @@ input:focus{
   }
 
   .description {
-    margin-left: 100px;
+    margin-left: 80px;
   }
 
   .description-head {
@@ -310,5 +310,9 @@ input:focus{
   .greybody {
     width: 35%;
     height: 300px;
+  }
+  .header::before {
+    top: 52px;
+    left: 100px;
   }
 }
